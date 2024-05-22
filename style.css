@@ -150,10 +150,8 @@ header {
 }
 
 .overall-form-section {
-    background-image: url(./images/Background.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left;
+    background: url(./images/Background.png) no-repeat left /cover;
+    background-color: #1E0E62;
     padding: 45px 55px 65px;
 }
 
@@ -212,7 +210,7 @@ form input {
 
 .first-footer-image {
     display: flex;
-    gap:10px;
+    gap:25px;
     margin-top:30px;
 }
 
@@ -231,4 +229,9 @@ form input {
 
 .first-footer-div {
     padding:130px;
+}
+
+.product-div-section h3, .work-div-section h3, .stuff-div-section h3,
+ .Product1-div-section h3 {
+    padding-bottom: 10px;
 }
